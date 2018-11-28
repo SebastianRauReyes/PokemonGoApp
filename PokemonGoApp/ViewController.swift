@@ -123,7 +123,6 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
                     
                     var nombre = pokemon.nombre
                     var pokemones = obtenerPokemonsAtrapados();
-                    var mipokemon = pokemones[1];
 
                     for pokemone in pokemones{
                         if(nombre == pokemone.nombre){
